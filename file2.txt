@@ -1,0 +1,25 @@
+.NET-CORE
+
+open-source
+Performance is better.
+windows,linux,MAC.
+
+ASP.NET-CORE
+
+MVC-CORE
+
+M->Model
+collection of classes(data-members and functions).
+
+C->Controller
+class file,collection of action-methods.
+
+V->view
+helpers->controls in MVC
+ASP.NET MVC-CORE
+->it is  technology for developing web application.
+->It is bested suited for TDD(test-driven and development) application
+->MVC provides "SOC" seperation of concern.
+model,controller and view code is seperated(helps in writing highly maintainable).
+
+
