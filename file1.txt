@@ -1,0 +1,27 @@
+{"name":"john","per":77.2,"rollno":1}
+ASP.NET MVC-CORE
+->it is  technology for developing web application.
+->It is bested suited for TDD(test-driven and development) application
+->MVC provides "SOC" seperation of concern.
+model,controller and view code is seperated(helps in writing highly maintainable).
+
+ex1:
+  public IActionResult Index()
+        {
+            return View();
+        }
+
+<h1>welcome to .NET-CORE application</h1>
+
+ex2:
+ public IActionResult display()
+        {
+            ViewData["info1"] = System.DateTime.Now.ToLongDateString();
+            ViewData["prodet"] = "P001,Laptop,76000";
+            return View();
+        }
+
+<h3>
+    Date:@ViewData["info1"]  <br />
+    Product_Details:@ViewData["prodet"]
+</h3>
